@@ -1,0 +1,52 @@
+.bg_Img{
+  background: url("https://images.pexels.com/photos/268791/pexels-photo-268791.jpeg?auto=compress&cs=tinysrgb&w=600") no-repeat center center/cover;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 100%;
+min-height: 100vh;
+}
+
+.Input{
+  background-color: rgb(255, 255, 255);
+  border:none;
+  border-radius: 25px;
+}
+.inputBox{
+  
+  
+  height: 60%;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+ 
+  padding: 10px;
+  box-shadow: 5px  #060606!important;
+}
+.Group{
+  display: flex;
+  gap:10px;
+  align-items: center;
+  margin: 1rem 0rem;
+}
+.weather-details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10.8rem !important;
+}
+.Box{
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  
+  align-items: center;
+  border-radius: 20px;
+background-color: rgba(213, 216, 216, 0.938);
+color:black
+
+}
+.Box p{
+  font-size: 400;
+}
